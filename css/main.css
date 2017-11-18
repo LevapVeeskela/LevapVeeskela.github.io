@@ -1,0 +1,349 @@
+body{
+    background: #f9f9f9;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../images/hero2/Background.png) no-repeat center top / cover ;
+    padding-bottom: 181px;
+}
+
+#about {
+    background: url(../images/about4/background/background.png) no-repeat center top / cover ;
+    height: 503px;
+    margin-top: 1000px;
+}
+
+footer{ 
+    background: #3c4955;
+    height: 201px;
+    margin-top: 440px;
+ }
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 36px;
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 60px;
+}
+
+menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 55px; 
+   
+}
+
+.menu a{ 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14pt;
+    float: left;
+}
+
+.slash{
+   color:#646d75;
+}
+
+.titles_first{
+    color: #ffffff;
+    font-size: 35pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 115px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titles_second{
+    color: #ffffff;
+    font-size: 25pt;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 20;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    text-transform: uppercase;
+    width: 140px;
+    border-color: #48bf72;
+    color: #48bf72;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    border: 2px solid; 
+    padding: 10px;
+}
+
+
+.button:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.row_button{
+    padding: 0;
+    margin: 50px auto;
+    display: block;
+    margin-left: 210px;
+
+}
+
+.row_button li {
+    float: left;
+    display: block;
+    margin-left: 10px;
+ }
+
+.row_button_three_a{
+ 
+    color: #3c4955;
+    background: #eaeaea;
+    text-decoration: none;
+    font-size: 14pt;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.row_button_a{
+    color: #ffffff;
+    background: #48bf72;
+    text-decoration: none;
+    font-size: 14pt;
+    padding: 10px;  
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.upper{
+ margin: 53px auto;
+}
+
+.first_colum{
+    width:450px;
+    height:831px;
+    float: left;
+}
+
+.second_colum{
+    width: 650px;
+    height:831px;
+    left:190px;
+    top:100px;
+    float: left;
+    margin-left: 40px; 
+}
+
+.internal_div{
+    float: top;
+    padding: 0 0 40px 0;
+}
+
+.text_div{
+    color:#ffffff;
+    text-align: left;
+    margin-left: 560px;
+    padding: 90px 0;
+    letter-spacing: 1px;
+}
+
+.name{
+    font-weight: 550;
+    font-size: 19pt;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.occupation{
+    font-size: 17pt;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+.many_text{
+    font-size: 14pt;
+    font-weight: 100;
+    padding-bottom: 20px;
+    line-height: 1.6em;
+}
+.many_text br{
+    padding-bottom: 5px;
+}
+
+.me_contacter_buttom{
+    text-transform: uppercase;
+    width: 140px;
+    border-color: #3c4955;
+    color: #3c4955;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    border: 2px solid;
+    width: 150px; 
+    padding: 10px;
+    letter-spacing: 0px;
+}
+
+.public_div{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.me_contacter{
+    text-transform: uppercase;
+    color: #48bf72;
+    font-weight: bold;
+    font-size: 26pt;
+    padding-bottom: 55px; 
+}
+
+.input_user{
+    float: left;
+    margin-left: 200px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.input_email{
+    float: left;
+    margin-left: 32px;
+    border: 2px solid;
+    border-radius: 3px; 
+}
+
+.label_input_user{
+    background: #3c4955;
+    float: left;
+    padding: 10px;
+}
+
+.input_user input{
+    height: 40px;
+    background: #f1f1f1;
+    float: left;
+    padding-left: 25px;
+    width: 285px; 
+    font-weight: bold;
+    
+}
+.label_input_email{
+    background: #3c4955;
+    float: left;
+    padding: 13px;
+}
+
+.input_email input{
+    height: 40px;
+    background: #f1f1f1;
+    float: left;
+    padding-left: 25px;
+    width: 285px; 
+    font-weight: bold;
+}
+
+.input_message{
+    float: left;
+    margin: 32px 0 0 200px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.label_input_message{
+    background: #3c4955;
+    float: left;
+    padding: 13px;
+    height: 180px;
+}
+
+.input_message textarea{
+    height: 40px;
+    background: #f1f1f1;
+    float: left;
+    padding: 20px 0 0 25px;
+    width: 675px;
+    height: 184px;
+    font-weight: bold;
+    
+}
+
+.submit{
+    float: left;
+    margin: 32px 0 0 200px;
+    padding-bottom: 53px;
+}
+
+.submit input{
+    background: #48bf72;
+    border-color: #48bf72;
+    color: #ffffff;
+    border-radius: 3px;   
+    padding: 10px;
+    text-transform: uppercase;
+    width: 755px;
+    letter-spacing: 1px;
+}
+
+.copyright{
+    float: left;
+    color: #ffffff;
+    padding: 90px 90px 90px 0;
+    font-size: 16pt;
+}
+
+.copyright span{
+    font-weight: bold;
+    font-size: 17pt;
+}
+
+.footers{
+    float: right;
+}
+
+.footers a{
+    text-decoration: none;
+}
+
+.footers li {
+    float: left;
+    display: block; 
+    margin: 56px 0 0 40px;
+}
+
