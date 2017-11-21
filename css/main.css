@@ -304,25 +304,27 @@ menu{
     
 }
 
-.submit {
-    float: left;
-    margin: 32px 0 0 200px;
-    padding-bottom: 53px;
-}
- .submit input:hover {
-   background: red; 
- }
+.classic-div {
+    position: relative;
 
-.submit input  {
+}
+.input-submit {
     background: #48bf72;
     border-color: #48bf72;
     color: #ffffff;
-    border-radius: 3px;   
-    padding: 10px;
+    border-radius: 3px;
     text-transform: uppercase;
     width: 755px;
+    height: 50px;
     letter-spacing: 1px;
+    float: left;
+    margin: 32px 0 0 200px;
+    padding: 10px;
 }
+
+ .input-submit:hover {
+   background:#C10020; 
+ }
 
 .copyright{
     float: left;
