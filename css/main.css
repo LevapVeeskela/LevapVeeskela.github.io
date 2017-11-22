@@ -113,7 +113,9 @@
 }
 
 .music {
-    float: right;
+    position: fixed;
+    right: 0px;
+    margin-top: 600px;
  }   
     
 .row-button{
