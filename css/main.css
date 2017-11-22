@@ -116,6 +116,10 @@ menu{
     color: #ffffff;
 }
 
+.music {
+    float: right;
+ }   
+    
 .row_button{
     padding: 0;
     margin: 50px auto;
@@ -308,7 +312,7 @@ menu{
     position: relative;
 
 }
-.submit-input {
+.input-submit {
     background: #48bf72;
     border-color: #48bf72;
     color: #ffffff;
@@ -322,7 +326,7 @@ menu{
     padding: 10px;
 }
 
- .submit-input:hover {
+ .input-submit:hover {
    background:#C10020; 
  }
 
