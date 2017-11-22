@@ -13,7 +13,7 @@
 
 .header{
     background: url(../images/hero2/Background.png) no-repeat center top / cover ;
-    height: 100%;
+    height: 503px;
     width: 100%;
     padding-bottom: 181px;
 }
@@ -39,6 +39,7 @@
 }
 
 .logo {
+    position: absolute;
     margin: 36px;
     float: left;
 }
@@ -77,6 +78,11 @@
 
 .slash{
    color:#646d75;
+}
+
+
+.text-title{
+    margin-top: 230px;
 }
 
 .titles-first{
