@@ -101,79 +101,88 @@
     </section>
     <article class="about">
         <div class="container">
-            <div class="text-div">
-                <div class="name">
-                    Michel Dupont
+            <div class="clearfix">
+                <div class="text-div">
+                    <div class="name">
+                        Michel Dupont
+                    </div>
+                    <div class="occupation">
+                        Webdesigner, illustrateur, auteur
+                    </div>
+                    <div class="many-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ellamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur.
+                    </div>
+                    <a href="#" class="me-contacter-buttom">me contacter</a>
                 </div>
-                <div class="occupation">
-                    Webdesigner, illustrateur, auteur
-                </div>
-                <div class="many-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ellamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </div>
-                <a href="#" class="me-contacter-buttom">me contacter</a>
             </div>
         </div>
     </article>
     <!-- пример содержащий URI обработчика формы -->
     <form action="http://example.com/app/profile.php" method="post">
         <div class="container">
-            <div class="public-div">
-                <div class="me-contacter">
-                    me contacter
-                </div>
-                <div class="input-user">
-                    <label for="input-user" class="label-input-user triangle-right">
-                        <img src="./images/contact5/Formulaire/user.png" alt="user-icon">
-                    </label>
-                    <input type="text" name="nom" id="input-user" maxlength="25" autocomplete="on" placeholder="Votre nom" required title="Введите, пожалуйста, имя.">
-                </div>
-                <div class="input-email">
-                    <label for="input-email" class="label-input-email triangle-right">
-                        <img src="./images/contact5/Formulaire/mail.png" alt="user-icon">
-                    </label>
-                    <input type="email" name="email" id="input-email" autocomplete="on" maxlength="30" placeholder="Votre email" required title="Введите, пожалуйста, email.">
-                </div>
-                <div class="input-message">
-                    <label for="input-message" class="label-input-message triangle-right">
-                        <img src="./images/contact5/Formulaire/crayon.png" alt="user-icon">
-                    </label>
-                    <textarea name="message" id="input-message" wrap="soft" spellcheck="true" maxlength="700" placeholder="Votre message" required
-                        title="Введите, пожалуйста, текст сообщения."></textarea>
-                </div>
-                <div class="classic-div">
-                    <input type="submit" value="envoyer" class="input-submit" title="Отправить сообщение.">
+            <div class="clearfix">
+                <div class="public-div">
+                    <div class="me-contacter">
+                        me contacter
+                    </div>
+                    <div class="input-user">
+                        <label for="input-user" class="label-input-user triangle-right">
+                            <img src="./images/contact5/Formulaire/user.png" alt="user-icon">
+                        </label>
+                        <input type="text" name="nom" id="input-user" maxlength="25" autocomplete="on" placeholder="Votre nom" required title="Введите, пожалуйста, имя."
+                            class="input-user-input">
+                    </div>
+                    <div class="input-email">
+                        <label for="input-email" class="label-input-email triangle-right">
+                            <img src="./images/contact5/Formulaire/mail.png" alt="mail-icon">
+                        </label>
+                        <input type="email" name="email" id="input-email" autocomplete="on" maxlength="30" placeholder="Votre email" required title="Введите, пожалуйста, email."
+                            class="input-email-input">
+                    </div>
+                    <div class="input-message">
+                        <label for="input-message" class="label-input-message triangle-right">
+                            <img src="./images/contact5/Formulaire/crayon.png" alt="crayon-icon">
+                        </label>
+                        <textarea name="message" id="input-message" wrap="soft" spellcheck="true" maxlength="700" placeholder="Votre message" required
+                            title="Введите, пожалуйста, текст сообщения." class="input-message-textarea"></textarea>
+                    </div>
+                    <div class="classic-div">
+                        <input type="submit" value="envoyer" class="input-submit" title="Отправить сообщение.">
+                    </div>
                 </div>
             </div>
         </div>
     </form>
     <footer class="footer">
         <div class="container">
-            <div>
-                <div class="copyright">
-                    Copyright © 2015 by beneggen -
-                    <span class="copyright-span">www.beneggen.fr</span>
+            <div class="clearfix">
+                <div>
+                    <div class="copyright">
+                        Copyright © 2015 by beneggen -
+                        <span class="copyright-span">www.beneggen.fr</span>
+                    </div>
+                    <ul class="footers">
+                        <li class="footers-li">
+                            <a href="https://twitter.com/?lang=ru" class="footers-a">
+                                <img src="./images/footer6/social/Twitter.png" title="Переход на Twitter" alt="Twitter" class="footer-twitter"> </a>
+                        </li>
+                        <li class="footers-li">
+                            <a href="https://www.linkedin.com/" class="footers-a">
+                                <img src="./images/footer6/social/LinkedIn.png" title="Переход на LinkedIn" alt="LinkedIn" class="footer-linkedin"> </a>
+                        </li>
+                        <li class="footers-li">
+                            <a href="https://dribbble.com/" class="footers-a">
+                                <img src="./images/footer6/social/Dribbble.png" title="Переход на Dribbble" alt="Dribbble" class="footer-linkedin"> </a>
+                        </li>
+                        <li class="footers-li">
+                            <a href="https://www.behance.net/" class="footers-a">
+                                <img src="./images/footer6/social/Behance.png" title="Переход на Behance" alt="Behance" class="footer-behance"> </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="footers">
-                    <li class="footers-li">
-                        <a href="https://twitter.com/?lang=ru" class="footers-a">
-                            <img src="./images/footer6/social/Twitter.png" title="Переход на Twitter" alt="Twitter"> </a>
-                    </li>
-                    <li class="footers-li">
-                        <a href="https://www.linkedin.com/" class="footers-a">
-                            <img src="./images/footer6/social/LinkedIn.png" title="Переход на LinkedIn" alt="LinkedIn"> </a>
-                    </li>
-                    <li class="footers-li">
-                        <a href="https://dribbble.com/" class="footers-a">
-                            <img src="./images/footer6/social/Dribbble.png" title="Переход на Dribbble" alt="Dribbble"> </a>
-                    </li>
-                    <li class="footers-li">
-                        <a href="https://www.behance.net/" class="footers-a">
-                            <img src="./images/footer6/social/Behance.png" title="Переход на Behance" alt="Behance"> </a>
-                    </li>
-                </ul>
             </div>
         </div>
     </footer>
