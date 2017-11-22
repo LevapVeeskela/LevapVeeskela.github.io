@@ -144,7 +144,7 @@
     margin-left: 210px;
 }
 
-.row-button-li {
+.row-button-li{
     float: left;
     display: block;
     margin-left: 10px;
@@ -203,7 +203,6 @@ border: 2px solid black;
     float: top;
     padding: 0 0 40px 0;
     border-radius: 10px;
-   
 }
 
 .internal-div-color-item1{
@@ -211,11 +210,19 @@ border: 2px solid black;
     width: 450px;
     height: 300px;
     margin-bottom: 40px;
-
 }
+
+.internal-div-color-item1:hover{
+    background: #ec830b;
+}
+
 
 .internal-div-color-item2{
     height: 485px;
+}
+
+.internal-div-color-item2:hover{
+    height: 500px;
 }
 
 .internal-div-color-item3{
@@ -224,9 +231,17 @@ border: 2px solid black;
     margin-bottom: 40px;
 }
 
+.internal-div-color-item3:hover{
+    background: #58b0cf;
+}
+
 .internal-div-color-item4{
     background: #383644;
     height: 350px;
+}
+
+.internal-div-color-item4:hover{
+    background: #262531;
 }
 
 .image-item1{
@@ -296,9 +311,9 @@ border: 2px solid black;
 }
 
 .me-contacter-buttom:hover{
-background: #48bf72;
-color: #2C3337;
-width: 160px;
+    background: #48bf72;
+    color: #2C3337;
+    width: 160px;
 }
 
 .public-div{
@@ -343,6 +358,7 @@ width: 160px;
     font-weight: bold;
     
 }
+
 .label-input-email{
     background: #3c4955;
     float: left;
@@ -380,7 +396,6 @@ width: 160px;
     width: 675px;
     height: 184px;
     font-weight: bold;
-    
 }
 
 .classic-div{
