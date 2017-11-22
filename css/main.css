@@ -308,7 +308,7 @@ menu{
     position: relative;
 
 }
-.input-submit {
+.submit-input {
     background: #48bf72;
     border-color: #48bf72;
     color: #ffffff;
@@ -322,7 +322,7 @@ menu{
     padding: 10px;
 }
 
- .input-submit:hover {
+ .submit-input:hover {
    background:#C10020; 
  }
 
