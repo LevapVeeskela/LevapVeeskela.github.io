@@ -13,22 +13,24 @@
 
 .header{
     background: url(../images/hero2/Background.png) no-repeat center top / cover ;
+    height: 100%;
+    width: 100%;
     padding-bottom: 181px;
 }
 
 .about{
     background: url(../images/about4/background/background.png) no-repeat center top / cover ;
-    height: 503px;
+    height: 100%;
+    width: 100%;
     margin-top: 1000px;
 }
 
 .footer{ 
     background: #3c4955;
-    height: 201px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 440px;
+    height: 100%;
+    width: 100%;
+    margin: 100px 0 0 0;
+
  }
 
 .container{
@@ -39,6 +41,10 @@
 .logo {
     margin: 36px;
     float: left;
+}
+.logo:hover {
+   width:220px;
+   height: 130px;
 }
 
 .nav-menu{
@@ -63,6 +69,10 @@
     text-decoration: none;
     font-size: 14pt;
     float: left;
+}
+
+.menu-a:hover{ 
+    color: #C10020; 
 }
 
 .slash{
@@ -204,7 +214,6 @@
     width: 100%;
 }
 
-
 .me-contacter-buttom{
     text-transform: uppercase;
     width: 140px;
@@ -260,7 +269,7 @@ width: 160px;
     padding: 10px;
 }
 
-.input-user input{
+.input-user-input{
     height: 40px;
     background: #f1f1f1;
     float: left;
@@ -275,7 +284,7 @@ width: 160px;
     padding: 13px;
 }
 
-.input-email input{
+.input-email-input{
     height: 40px;
     background: #f1f1f1;
     float: left;
@@ -298,7 +307,7 @@ width: 160px;
     height: 180px;
 }
 
-.input-message textarea{
+.input-message-textarea{
     height: 40px;
     background: #f1f1f1;
     float: left;
@@ -357,3 +366,38 @@ width: 160px;
     margin: 56px 0 0 40px;
 }
 
+.footer-twitter{
+    width:100%; 
+}
+
+.footer-twitter:hover{
+     height:70px;
+     width: 70px;
+}
+
+.footer-linkedin{
+    width: 100%; 
+}
+
+.footer-linkedin:hover{
+    height:70px;
+    width: 70px; 
+}
+
+.footer-linkedin{
+    width:100%; 
+}
+
+.footer-linkedin:hover{
+    height:70px;
+    width: 70px; 
+}
+
+.footer-behance{
+    width:100%; 
+}
+
+.footer-behance:hover{
+    height:70px;
+    width: 70px; 
+}
