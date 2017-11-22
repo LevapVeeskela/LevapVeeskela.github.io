@@ -25,6 +25,9 @@
 .footer{ 
     background: #3c4955;
     height: 201px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     margin-top: 440px;
  }
 
@@ -109,15 +112,11 @@
     color: #ffffff;
 }
 
-<<<<<<< HEAD
 .music {
     float: right;
  }   
     
-.row_button{
-=======
 .row-button{
->>>>>>> feature/LevapVeeskela
     padding: 0;
     margin: 50px auto;
     display: block;
