@@ -428,6 +428,8 @@ border: 2px solid black;
 }
 
 .copyright-span{
+    color: #ffffff;
+    text-decoration: none;
     font-weight: bold;
     font-size: 17pt;
 }
