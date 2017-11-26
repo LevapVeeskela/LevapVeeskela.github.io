@@ -22,7 +22,6 @@
     background: url() no-repeat center top / cover ;
     height: 100%;
     width: 100%;
-    margin-top: 1000px;
 }
 
 .footer{ 
@@ -39,5 +38,5 @@
 
 .container{
     width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
 }
