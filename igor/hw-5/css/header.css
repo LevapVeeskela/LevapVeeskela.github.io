@@ -199,7 +199,7 @@
     background-color: #ffffff;
     width: 1970px;
     height: 560px;
-    opacity: 0.3;
+    opacity: 1;
 }
 .caption_about_us{
     font-size: 32px;
@@ -264,6 +264,10 @@
 .menu_slaider_block_about_us li{
     display: inline-block;
     margin-right: 58px;
+    opacity: 0.4;
+}
+.menu_slaider_block_about_us li:hover{
+    opacity: 1;
 }
 .right_arrow_block_about_us{
     position: absolute;
@@ -277,7 +281,7 @@
     background-color: #e7eff1;
     width: 1970px;
     height: 585px;
-    opacity: 0.4;
+    opacity: 1;
 }
 .caption-our-features{
     font-size: 32px;
@@ -437,4 +441,32 @@
     width: 1141px;
     height: 78px;
     background: #565d5d;
+}
+.article-in-bottom-block-our-features{
+    font-size: 20px;
+    font-family: Domine, Arial,sans-serif;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    left: 37px;
+    top: 25px;
+    letter-spacing: -0.47px;
+}
+.button-for-boost-your-business-in-block-our-features{
+    position: absolute;
+    left: 890px;
+    top: 15px;
+    width: 224px;
+    height: 45px;
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.308;
+    background-color: #16d428;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+
+
 }
