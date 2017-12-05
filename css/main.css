@@ -1,8 +1,15 @@
+@import "./slides/slide-projects.css";
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 
 .mock{
     width: 100%;
@@ -34,21 +41,90 @@
 }
 
 .wrapper{
-    display: grid;
-    width: 1100px;
+    width: 1140px;
     margin: 0 auto 0 auto;
 }
 
-.project-content{
-    grid-template-columns: repeat(3, 1fr);
-    height: 800px;
-    width: 100%;
-}
- 
-.project-span{
-    /* display: block;
-    margin-top: 100px;  */
+.projects-location{
+    display: grid;
+    grid-template-columns: auto;  
+    grid-template-rows: 23px; 
+    justify-content: center;
+    margin-top: 92px;
+
+ }
+.project-text{
     text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.project-heading-location{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 40px;
+    grid-template-columns: 345px auto ;
+    grid-template-rows: 465px auto ;
+}
+
+.project-heading-first{
+    display: grid;
+    opacity: 0.5;
+    border: 3px red solid;
+    background: black;
+}
+
+.project-heading-second{
+    margin-left: 30px;
+    opacity: 0.5;
+    border: 3px red solid;
+    background: black;
+}
+
+.full-projects-button-location{
+    margin-top: 45px;
+    display: grid;
+    justify-content: center;
+}
+
+.full-projects-a{ 
+    text-align: center;
+    padding: 13px;
+    background: #16d428;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px; 
+    width: 130px;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+    .wrapper{
+        width: 769px;
+    }
+
+    .project-heading-location{
+        margin-left: 0;
+        margin-top: 20px;
+        grid-template-columns: 175px auto ;
+    }
+
+    .project-heading-second{
+        margin-left: 5px;
+    }
+}
     
-    
+@media (min-width: 0) and (max-width: 768px) {
+    .wrapper{
+        width: 550px;
+    }
+    .project-heading-location{
+        margin-left: 0;
+        margin-top: 20px;
+        grid-template-columns: 175px auto ;
+    }
+    .project-heading-second{
+        margin-left: 5px;
+    }
 }
