@@ -11,11 +11,10 @@
 
 .slide-projects  input + label {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 8px;
-    /* background: rgba(197, 22, 22, 0.8); */
-    border: 2px solid rgba(190, 190, 190, 0.8);
+    border: 2px solid rgba(0, 0, 0, 1);
 
     cursor: pointer;
 
@@ -23,7 +22,7 @@
     position: relative;
 
     margin-right: 2px;
-    top: 88%;
+    top: 80%;
     left: 40%;
     transition: background 0.8s ease-out 0s;
 }
@@ -33,7 +32,7 @@
 }
 
 .slide-projects  input:checked + label {
-    border: 2px solid rgba(18, 165, 5, 0.8);
+     border: 2px solid rgba(18, 165, 5, 0.8); 
     background: rgba(18, 165, 5, 0.8);
 }
 
@@ -53,7 +52,7 @@
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-img {
+.img-slider {
     width: 740px;
     height: 290px;
 }
@@ -75,27 +74,6 @@ img {
     text-shadow: 2px 2px 3px #222;
 }
 
-@media (min-width: 769px) and (max-width: 960px) {
 
 
-    .slide-projects {
-        width: 100%;
-        height: 290px;
-    }
-    img {
-        width: 100%;
-        height: 290px;
-    }
- 
-}
-    
-@media (min-width: 0) and (max-width: 768px) {
-    .slide-projects {
-        width: 100%;
-       height: 290px;
-    }
-    img {
-        width: 100%;
-        height: 290px;
-    }
-}
+

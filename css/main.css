@@ -1,31 +1,16 @@
+
+@import "./reset.css";
+@import "./shared.css";
+@import "./header.css";
+@import "./block_our_features.css";
+@import "./block_about_us.css";
 @import "./slides/slide-projects.css";
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-
-
-.mock{
-    width: 100%;
-
-}
-.mock-div{
-    background: #631010;
-    height: 1985px;
-    width: 100%;
-}
 
 .body{  
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../Home_Page2.jpg) no-repeat center top  / cover;
+    /* background: url(../Home_Page2.jpg) no-repeat center top  / cover;
     background-size: 100% 5400px; 
-    height: 5400px;
+    height: 5400px; */
 }
 
 .clearfix:after{
@@ -76,9 +61,7 @@
 
 .project-heading-second{
     margin-left: 30px;
-    opacity: 0.5;
-    border: 3px red solid;
-    background: black;
+    border: 1px solid black;
 }
 
 .full-projects-button-location{
@@ -99,32 +82,43 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 769px) and (max-width: 960px) {
-    .wrapper{
-        width: 769px;
-    }
+.slider-text{
+    margin: 30px 0 0 25px;
+    color: #343a3b;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
 
-    .project-heading-location{
-        margin-left: 0;
-        margin-top: 20px;
-        grid-template-columns: 175px auto ;
-    }
-
-    .project-heading-second{
-        margin-left: 5px;
-    }
 }
-    
-@media (min-width: 0) and (max-width: 768px) {
-    .wrapper{
-        width: 550px;
-    }
-    .project-heading-location{
-        margin-left: 0;
-        margin-top: 20px;
-        grid-template-columns: 175px auto ;
-    }
-    .project-heading-second{
-        margin-left: 5px;
-    }
+.slider-text-second{
+    margin: 13px 0 0 25px;
+    line-height: 28px;
+}
+
+.project-heding-first{
+    background: url(../images/content/image.png) no-repeat center top / cover;
+    background-size: 100% 290px;
+    height: 290px;
+}
+
+.project-heding-second{
+
+}
+
+
+.slider-text{
+    margin: 30px 0 0 25px;
+    color: #343a3b;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+
+}
+.slider-text-second{
+    margin: 13px 0 0 25px;
+    line-height: 28px;
 }
