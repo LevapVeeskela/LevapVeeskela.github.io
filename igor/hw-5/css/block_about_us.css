@@ -73,25 +73,12 @@
     top: 420px;
     left:491px;
 }
-.menu_slaider_block_about_us2{
-    position: absolute;
-    top: 420px;
-    left:491px;
-}
 .menu_slaider_block_about_us li{
     display: inline-block;
     margin-right: 58px;
     opacity: 0.4;
 }
-.menu_slaider_block_about_us2 li{
-    display: inline-block;
-    margin-right: 58px;
-    opacity: 0.4;
-}
 .menu_slaider_block_about_us li:hover{
-    opacity: 1;
-}
-.menu_slaider_block_about_us2 li:hover{
     opacity: 1;
 }
 .right_arrow_block_about_us{

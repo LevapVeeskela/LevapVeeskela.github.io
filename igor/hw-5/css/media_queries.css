@@ -1,0 +1,567 @@
+@media screen and (max-width: 768px) {
+    .bg_header_main{
+        visibility: hidden;
+    }
+    .header_gradient{
+        width: 100%;
+        height: 400px;
+    }
+    .logo_header_consult_plus{
+        width: 59px;
+        height: 17px;
+        top:15px;
+        left:300px;
+    }
+    .main_menu_header{
+        top:65px;
+        left:50px;
+    }
+    .header_phone_number{
+        top: 105px;
+        left: 75px;
+    }
+    .icon-calls-out{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+    .icon-envelope-open{
+        position: absolute;
+        top: 100px;
+        left: 230px;
+    }
+    .caption_We_are_leading{
+        font-size: 12px;
+        left: 50px;
+        top: 130px;
+        text-align: center;
+    }
+    .caption_Choose_your_industry{
+        font-size: 26px;
+        left: 50px;
+        top: 150px;
+    }
+    .rectangle_for_choose_education{
+        top:200px;
+        left:50px;
+        width: 103px;
+        height: 113px;
+    }
+    .image_education{
+        transform: scale(.7);
+        top: 10px;
+        left: 22px;
+    }
+    .text_name_education{
+        font-size: 12px;
+        left: 15px;
+        top: 75px;
+    }
+    .rectangle_for_choose_business{
+        top:200px;
+        left:180px;
+        width: 103px;
+        height: 113px;
+    }
+    .image_Business{
+        transform: scale(.7);
+        top: 12px;
+        left: 22px;
+    }
+    .text_name_Business{
+        font-size: 12px;
+        left: 20px;
+        top: 75px;
+    }
+    .rectangle_for_choose_Technology{
+        top:200px;
+        left:310px;
+        width: 103px;
+        height: 113px;
+    }
+    .image_Technology{
+        transform: scale(.7);
+        top: 12px;
+        left: 18px;
+    }
+    .text_name_Technology{
+        font-size: 12px;
+        left: 10px;
+        top: 75px;
+    }
+    .rectangle_for_choose_Banking{
+
+        top:200px;
+        left:440px;
+        width: 103px;
+        height: 113px;
+
+    }
+    .image_Banking{
+        transform: scale(.7);
+        top: 12px;
+        left: 25px;
+    }
+    .text_name_Banking{
+
+        font-size: 12px;
+
+        left: 25px;
+        top: 75px;
+    }
+    .wrapper .controls {
+        left: 50px;
+
+        top: 320px;
+    }
+    .block-about-us-bg{
+        top: 400px;
+        left:0;
+        background-color: #ffffff;
+        width: 768px;
+        height: 560px;
+        opacity: 1;
+    }
+    .caption_about_us{
+        font-size: 22px;
+        left: 330px;
+        top: 10px;
+        letter-spacing: -1px;
+    }
+    .article_for_block_about_us{
+        font-size: 12px;
+        left: 230px;
+        top: 50px;
+        width: 320px;
+        height: 35px;
+    }
+    .button_read_more_block_about_us{
+        font-size: 10px;
+        left: 350px;
+        top: 180px;
+        width: 80px;
+        height: 18px;
+        border: none;
+        border-radius: 10px;
+    }
+    .underlining_block_about_us{
+
+        left: 80px;
+        top: 220px;
+        width: 600px;
+        height: 2px;
+        opacity: 0.7;
+    }
+    .left_arrow_block_about_us{
+        transform: scale(.9);
+        top: 320px;
+        left: 230px;
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    .menu_slaider_block_about_us{
+        top: 250px;
+        left:300px;
+        transform: scale(.7);
+    }
+    .menu_slaider_block_about_us li{
+        display: block;
+        margin-right: 0;
+
+    }
+    .right_arrow_block_about_us{
+        transform: scale(.9);
+        top: 320px;
+        left: 480px;
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    .block-our-features-bg{
+        top: 860px;
+        left:0;
+        background-color: #e7eff1;
+        width: 100%;
+        height: 435px;
+        opacity: 1;
+    }
+    .caption-our-features{
+        font-size: 22px;
+        left: 310px;
+        top: 30px;
+        letter-spacing: -1.4px;
+    }
+    .caption-24-hour-support{
+        font-size: 12px;
+
+        left: 170px;
+        top: 80px;
+        letter-spacing: -1.2px;
+    }
+    .caption-full-security{
+        font-size: 12px;
+        left: 170px;
+        top: 160px;
+        letter-spacing: -1.2px;
+    }
+    .caption-business-boosting{
+        font-size: 12px;
+
+        left: 520px;
+        top: 80px;
+        letter-spacing: -1.4px;
+    }
+    .caption-creative-process{
+        font-size: 12px;
+        left: 520px;
+        top: 160px;
+        letter-spacing: -1.4px;
+    }
+    .image-near-caption-24-hour-support{
+        transform: scale(.7);
+        top: 80px;
+        left: 280px;
+    }
+    .image-near-caption-business-boosting{
+        transform: scale(.7);
+        top: 80px;
+        left: 480px;
+    }
+    .image-near-caption-creative-process{
+        transform: scale(.7);
+        top: 160px;
+        left: 280px;
+    }
+    .image-near-caption-full-security{
+        transform: scale(.7);
+        top: 160px;
+        left: 480px;
+    }
+    .article-for-caption-24-hour-support{
+        font-size: 10px;
+        left: 37px;
+        top: 100px;
+        width: 230px;
+        height: 20px;
+    }
+    .article-for-caption-full-security{
+        font-size: 10px;
+        left: 37px;
+        top: 200px;
+        width: 230px;
+        height: 20px;
+    }
+    .article-for-caption-business-boosting{
+        font-size: 10px;
+        left: 520px;
+        top: 100px;
+        width: 230px;
+        height: 20px;
+    }
+    .article-for-caption-creative-process{
+        font-size: 10px;
+        left: 520px;
+        top: 200px;
+        width: 230px;
+        height: 20px;
+    }
+    .logo-consult-plus-center-in-block-our-features{
+        transform: scale(.6);
+        top:15px;
+        left:15px;
+    }
+    .circle-for-logo-consult-plus{
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        left: 360px;
+        top: 100px;
+        width: 80px;
+        height: 80px;
+    }
+    .rectangle-for-bottom-block-our-features{
+        top:400px;
+        left: 130px;
+        width: 500px;
+        height: 35px;
+        background: #565d5d;
+    }
+    .article-in-bottom-block-our-features{
+        font-size: 12px;
+        left: 10px;
+        top: 10px;
+        letter-spacing: -0.47px;
+    }
+    .button-for-boost-your-business-in-block-our-features{
+        position: absolute;
+        left: 360px;
+        top: 5px;
+        width: 130px;
+        height: 25px;
+        font-size: 8px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width: 320px){
+    .bg_header_main{
+        visibility: hidden;
+    }
+    .header_gradient{
+        width: 100%;
+        height: 800px;
+    }
+    .logo_header_consult_plus{
+       transform: scale(.2);
+        top:5px;
+        left:20px;
+    }
+    .main_menu_header{
+        transform: scale(.4);
+
+        top:0px;
+        left:10px;
+    }
+    .main_menu_header li{
+        display: block;
+        margin-right: 0;
+    }
+    .header_phone_number{
+        transform: scale(.4);
+        top: 30px;
+        left: 15px;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+    .icon-calls-out{
+        transform: scale(.4);
+        top: 20px;
+        left: 15px;
+    }
+    .icon-envelope-open{
+        transform: scale(.4);
+        top: 20px;
+        left: 85px;
+    }
+    .caption_We_are_leading{
+        font-size: 7px;
+        left: 10px;
+        top: 150px;
+    }
+    .caption_Choose_your_industry{
+        font-size: 10px;
+        left: 15px;
+        top: 170px;
+    }
+    .rectangle_for_choose_education{
+        transform: scale(.4);
+        top:180px;
+        left:8px;
+    }
+    .rectangle_for_choose_business{
+        transform: scale(.4);
+        top:230px;
+        left:8px;
+    }
+    .rectangle_for_choose_Technology{
+        transform: scale(.4);
+        top:280px;
+        left:8px;
+    }
+    .rectangle_for_choose_Banking{
+        transform: scale(.4);
+        top:330px;
+        left:8px;
+    }
+    .wrapper .controls {
+        transform: scale(.3);
+        left: -5px;
+        top: 180px;
+    }
+    .wrapper label {
+        transform: scale(.8);
+    }
+    .wrapper label:after {
+        transform: scale(.8);
+    }
+    .wrapper label {
+        transform: scale(.8);
+    }
+    .block-about-us-bg{
+        top: 450px;
+        left:0;
+        background-color: #ffffff;
+        width: 320px;
+        height: 560px;
+        opacity: 1;
+    }
+    .caption_about_us{
+        font-size: 10px;
+        left: 35px;
+        top: 10px;
+        letter-spacing: -1px;
+    }
+    .article_for_block_about_us{
+        font-size: 5px;
+        left: 20px;
+        top: 40px;
+        width: 80px;
+        height: 60px;
+    }
+    .button_read_more_block_about_us{
+        font-size: 6px;
+        left: 30px;
+        top: 120px;
+        width: 60px;
+        height: 15px;
+        border: none;
+        border-radius: 6px;
+    }
+    .underlining_block_about_us{
+        display: inline-block;
+        color: #e7eff1;
+        position: absolute;
+        left: 30px;
+        top: 140px;
+        width: 60px;
+        height: .2px;
+        opacity: 0.7;
+
+    }
+    .left_arrow_block_about_us{
+        visibility: hidden;
+        top: 140px;
+        left: 40px;
+        cursor: pointer;
+        opacity: 0.3;
+        transform: rotate(90deg);
+    }
+    .menu_slaider_block_about_us{
+        top: 90px;
+        left:-20px;
+        transform: scale(.3);
+    }
+    .menu_slaider_block_about_us li{
+        display: block;
+        margin-right: 0;
+
+    }
+    .right_arrow_block_about_us{
+        visibility: hidden;
+        transform: scale(.9);
+        top: 320px;
+        left: 480px;
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    .block-our-features-bg{
+        top: 690px;
+        left:0;
+        background-color: #e7eff1;
+        width: 100%;
+        height: 435px;
+        opacity: 1;
+    }
+    .caption-our-features{
+        font-size: 10px;
+        left: 25px;
+        top: 10px;
+        letter-spacing: -1.4px;
+    }
+    .caption-24-hour-support{
+        font-size: 6px;
+        left: 27px;
+        top: 20px;
+        letter-spacing: 0px;
+    }
+    .caption-full-security{
+        font-size: 6px;
+        left: 27px;
+        top: 75px;
+        letter-spacing: 0px;
+    }
+    .caption-business-boosting{
+        font-size: 6px;
+        left: 27px;
+        top: 130px;
+        letter-spacing: 0px;
+    }
+    .caption-creative-process{
+        font-size: 6px;
+        left: 27px;
+        top: 175px;
+        letter-spacing: 0px;
+    }
+    .image-near-caption-24-hour-support{
+        visibility: hidden;
+
+    }
+    .image-near-caption-business-boosting{
+        visibility: hidden;
+    }
+    .image-near-caption-creative-process{
+       visibility: hidden;
+    }
+    .image-near-caption-full-security{
+        visibility: hidden;
+    }
+    .article-for-caption-24-hour-support{
+        font-size: 5px;
+        left: 25px;
+        top: 30px;
+        width: 60px;
+        height: 60px;
+        text-align: justify;
+    }
+    .article-for-caption-full-security{
+        font-size: 5px;
+        left: 25px;
+        top: 85px;
+        width: 60px;
+        height: 60px;
+        text-align: justify;
+    }
+    .article-for-caption-business-boosting{
+        font-size: 5px;
+        left: 25px;
+        top: 140px;
+        width: 60px;
+        height: 60px;
+        text-align: justify;
+    }
+    .article-for-caption-creative-process{
+        font-size: 5px;
+        left: 25px;
+        top: 185px;
+        width: 60px;
+        height: 60px;
+        text-align: justify;
+    }
+    .logo-consult-plus-center-in-block-our-features{
+        visibility: hidden;
+    }
+    .circle-for-logo-consult-plus{
+       visibility: hidden;
+    }
+    .rectangle-for-bottom-block-our-features{
+        top:250px;
+        left: 0px;
+        width: 111px;
+        height: 30px;
+        background: #565d5d;
+    }
+    .article-in-bottom-block-our-features{
+        font-size: 5px;
+        left: 0px;
+        top: 0px;
+        letter-spacing: 0px;
+
+    }
+    .button-for-boost-your-business-in-block-our-features{
+        position: absolute;
+        left: 30px;
+        top: 15px;
+        width: 50px;
+        height: 15px;
+        font-size: 3px;
+        border-radius: 6px;
+    }
+}
