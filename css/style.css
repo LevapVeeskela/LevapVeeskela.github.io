@@ -141,3 +141,159 @@ span.copy:after {
 ul.social-ikon-ft a:hover {
     text-shadow: -1px 0 1px #fff, 0 -1px 1px #fff, 0 1px 1px #fff, 1px 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 1px 1px 2px black;
 }
+
+@font-face {
+	 font-family: "Domine Regular";
+	 src: url(../fonts/Domine-Regular.ttf);
+}
+@font-face {
+	 font-family: "MontserratSubrayada-Bold";
+	 src: url(../fonts/MontserratSubrayada-Bold.ttf);
+}
+
+.blok_our_blog{
+	width: 100%;
+    height: 654px;
+	background-color: #e7eff1;
+}
+.wrapper{
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0px;
+	/*background-color: red;*/
+}
+.name_blog{
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #343a3b;
+	padding-top: 105px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.content{
+	width: 1125px;
+	height: 295px;
+	margin-bottom: 62px;
+}
+.fotoitext{
+	float: left;
+	width: 570px;
+	height: 293px;
+	border-top: 3px solid #16d428;
+}
+.foto{
+	float: left;
+}
+.text{
+	box-sizing: border-box;
+	float: right;
+	height: 293px;
+	width: 349px;
+	padding-left: 58px;
+	padding-right: 68px;
+	background-color: #fff;
+}
+.item1{
+	font-family: "Domine Regular";
+	font-size: 15px;
+}
+.item2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "MontserratSubrayada-Bold";
+	font-size: 18px;
+}
+.clear{
+	clear: both;
+}
+.prostotext{
+	box-sizing: border-box;
+	float: right;
+	width: 555px;
+	height: 296px;
+	padding-left: 58px;
+	padding-right: 65px;
+	background-color: #fff;
+	border-top: 3px solid #ffac56;
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+}
+.clear{
+	clear: both;
+}
+.foto img{
+	height: 293px;
+	width: 100%;
+}
+input{
+	background-color: #16d428;
+	border: none;
+	border-radius: 25px;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 13px;
+	font-family: "MontserratSubrayada-Bold";
+}
+.blok_quick_contact{
+    height: 380px;
+    width: 100%;
+	background-color: #fff
+}
+.name_blog2{
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #343a3b;
+	padding-top: 95px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+.contacts{
+	height: 128px;
+	width: 358px;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	display: inline-block; 
+	margin-right: 29px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+.connecting{
+	width: 100%;
+	height: 128px;
+}
+
+.connecting :last-child {
+	margin-right: 0;
+}
+.contacts img{
+	width: 55px;
+	height: 50px; /*dghdhd*/
+}
+
+.text_content{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 42px;
+}
+
+.text_content p{
+	margin: 0;
+}
+
+.text1{
+	text-transform: uppercase;
+	font-family: "MontserratSubrayada-Bold";
+	font-weight: bold;
+	font-size: 18px; 
+}
+
+.text2{
+	font-family: "Domine Regular";
+	font-size: 18px; 
+}

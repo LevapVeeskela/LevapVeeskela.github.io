@@ -42,8 +42,206 @@
         width: 100%;
         height: 290px;
     }
+@media screen and (max-width: 768px) { 
+	.blok_our_blog{
+		width: 100%;
+		height: auto;
+	}
+	.wrapper{
+		width: 600px;
+		background-color: #888;
+	}
+	.name_blog{
+		padding-top: 50px;
+		padding-bottom: 20px;
+		background-color: #e7eff1;
+	}
+	.content{
+		width: 100%;
+		height: auto;
+		margin-bottom: 0px;
+	}
+	.fotoitext{
+		margin: 0;
+		float: none;
+		display: block;
+		width: 100%;
+	}
+
+	.foto{
+		display: inline-block;
+	}
+
+	.text{
+		display: inline-block;
+		width: 379px;
+		/*-moz-width: 394px;*/
+	}
+	.prostotext{
+		margin: 0;
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	.button{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px; 
+		background-color: #e7eff1;
+	}
+
+	.blok_quick_contact{
+		width: 100%;
+		height: auto;
+	}
+
+	.name_blog2{
+		padding-top: 45px;
+		padding-bottom: 12px;
+		background-color: #fff;
+	}
+
+	.connecting{
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.contacts{
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+}
+@media screen and (max-width: 320px) { 
+	.wrapper{
+		width: 300px;
+	}
+	.foto{
+		display: none;
+	}
+	.text{
+		width: 100%;
+	}
+	.contacts{
+		width: 100%;
+		margin-right: 0px;
+		padding-bottom: 0px;
+		padding-top: 30px;
+		padding-left: 0px;
+	}
+	.text1{
+		font-size: 14px;
+	}
+	.text2{
+		font-size: 14px;
+	}
+	.contacts_img{
+		width: 90%;
+	}
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 320px) {
+.content{
+	display: inline-block;
+	width: 580px;
+	height: 100%;
+	margin-bottom: 0px;
+}
+.contacts{
+	display: inline-block;
+	height: 128px;
+	width: 358px;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	display: inline-block; 
+	margin-right: 29px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-left: 40px;
+}	
+*/
