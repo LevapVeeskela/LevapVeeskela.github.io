@@ -7,7 +7,7 @@
     height: 560px;
     opacity: 1;
 }
-.caption_about_us{
+.caption-about-us{
     font-size: 32px;
     font-family: Montserrat, Arial,sans-serif;
     color: #343a3b;
@@ -20,7 +20,7 @@
     top: 87px;
     letter-spacing: -1px;
 }
-.article_for_block_about_us{
+.article-for-block-about-us{
     font-size: 15px;
     font-family: Domine, Arial, sans-serif;
     color: #838b8c;
@@ -32,7 +32,7 @@
     width: 679px;
     height: 70px;
 }
-.button_read_more_block_about_us{
+.button-read-more-block-about-us{
     cursor: pointer;
     font-size: 13px;
     font-family: Montserrat, Arial, sans-serif;
@@ -48,7 +48,7 @@
     border: none;
     border-radius: 25px;
 }
-.underlining_block_about_us{
+.underlining-block-about-us{
     display: inline-block;
     color: #e7eff1;
     position: absolute;
@@ -58,49 +58,36 @@
     height: 2px;
     opacity: 0.7;
 }
-.left_arrow_block_about_us{
+.left-arrow-block-about-us{
     position: absolute;
     top: 429px;
     left: 418px;
     cursor: pointer;
     opacity: 0.3;
 }
-.left_arrow_block_about_us:hover{
+.left-arrow-block-about-us:hover{
    opacity: 1;
 }
-.menu_slaider_block_about_us{
+.menu-slaider-block-about-us{
     position: absolute;
     top: 420px;
     left:491px;
 }
-.menu_slaider_block_about_us2{
-    position: absolute;
-    top: 420px;
-    left:491px;
-}
-.menu_slaider_block_about_us li{
+.menu-slaider-block-about-us li{
     display: inline-block;
     margin-right: 58px;
     opacity: 0.4;
 }
-.menu_slaider_block_about_us2 li{
-    display: inline-block;
-    margin-right: 58px;
-    opacity: 0.4;
-}
-.menu_slaider_block_about_us li:hover{
+.menu-slaider-block-about-us li:hover{
     opacity: 1;
 }
-.menu_slaider_block_about_us2 li:hover{
-    opacity: 1;
-}
-.right_arrow_block_about_us{
+.right-arrow-block-about-us{
     position: absolute;
     top: 429px;
     left: 1524px;
     cursor: pointer;
     opacity: 0.3;
 }
-.right_arrow_block_about_us:hover{
+.right-arrow-block-about-us:hover{
     opacity: 1;
 }
