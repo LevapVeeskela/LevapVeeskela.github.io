@@ -1,4 +1,4 @@
-.bg_header_main {
+.bg-header-main {
     height: 841px;
     width: 100%;
 }
@@ -8,14 +8,14 @@
     background-size: 100% 1250px;
 }
 
-.header_gradient {
+.header-gradient {
     width: 100%;
     height: 841px;
     background: linear-gradient(to bottom, #000000, #aca7a9);
     opacity: 0.8;
 }
 
-.logo_header_consult_plus {
+.logo-header-consult-plus {
     position: absolute;
     width: 149px;
     height: 42px;
@@ -23,7 +23,7 @@
     left: 417px;
 }
 
-.main_menu_header {
+.main-menu-header {
     position: absolute;
     top: 45px;
     left: 636px;
@@ -34,20 +34,20 @@
     line-height: 2.143;
 }
 
-.main_menu_header li {
+.main-menu-header li {
     display: inline;
     margin-right: 33px;
 }
 
-.main_menu_header a {
+.main-menu-header a {
     color: #ffffff;
 }
 
-.main_menu_header a:hover {
+.main-menu-header a:hover {
     color: #ffac55;
 }
 
-.header_phone_number {
+.header-phone-number {
     position: absolute;
     display: inline-block;
     top: 55px;
@@ -60,19 +60,17 @@
     letter-spacing: 0.7px;
 }
 
-.icon-calls-out {
+.icon-calls-out{
     position: absolute;
     top: 45px;
     left: 1322px;
 }
-
-.icon-envelope-open {
+.icon-envelope-open{
     position: absolute;
     top: 50px;
     left: 1532px;
 }
-
-.circle_for_icon_email {
+.circle-for-icon-email{
     position: absolute;
     top: 45px;
     left: 1526px;
@@ -82,10 +80,9 @@
     border-radius: 50px;
     opacity: 0.3;
 }
-
-.caption_We_are_leading {
+.caption-We-are-leading{
     font-size: 16px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -93,10 +90,9 @@
     left: 814px;
     top: 238px;
 }
-
-.caption_Choose_your_industry {
+.caption-Choose-your-industry{
     font-size: 46px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -105,26 +101,23 @@
     top: 268px;
     letter-spacing: -1px;
 }
-
-.rectangle_for_choose_education {
+.rectangle-for-choose-education{
     position: absolute;
-    top: 371px;
-    left: 417px;
+    top:371px;
+    left:417px;
     width: 263px;
     height: 283px;
     background: #03b6e7;
 }
-
-.image_education {
+.image-education{
     position: absolute;
     top: 84px;
     left: 103px;
 }
-
-.text_name_education {
+.text-name-education{
     position: absolute;
     font-size: 20px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -132,26 +125,23 @@
     left: 72px;
     top: 159px;
 }
-
-.rectangle_for_choose_business {
+.rectangle-for-choose-business{
     position: absolute;
-    top: 371px;
-    left: 712px;
+    top:371px;
+    left:712px;
     width: 263px;
     height: 283px;
     background: #03b6e7;
 }
-
-.image_Business {
+.image-Business{
     position: absolute;
     top: 84px;
     left: 103px;
 }
-
-.text_name_Business {
+.text-name-Business{
     position: absolute;
     font-size: 20px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -159,26 +149,23 @@
     left: 80px;
     top: 159px;
 }
-
-.rectangle_for_choose_Technology {
+.rectangle-for-choose-Technology{
     position: absolute;
-    top: 371px;
-    left: 1005px;
+    top:371px;
+    left:1005px;
     width: 263px;
     height: 283px;
     background: #03b6e7;
 }
-
-.image_Technology {
+.image-Technology{
     position: absolute;
     top: 90px;
     left: 95px;
 }
-
-.text_name_Technology {
+.text-name-Technology{
     position: absolute;
     font-size: 20px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -186,26 +173,23 @@
     left: 60px;
     top: 159px;
 }
-
-.rectangle_for_choose_Banking {
+.rectangle-for-choose-Banking{
     position: absolute;
-    top: 371px;
-    left: 1297px;
+    top:371px;
+    left:1297px;
     width: 263px;
     height: 283px;
     background: #03b6e7;
 }
-
-.image_Banking {
+.image-Banking{
     position: absolute;
     top: 85px;
     left: 102px;
 }
-
-.text_name_Banking {
+.text-name-Banking{
     position: absolute;
     font-size: 20px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -213,27 +197,22 @@
     left: 79px;
     top: 159px;
 }
-
-.hover-for-slayder:hover {
+.hover-for-slayder:hover{
     background: #ffac55;
 }
-
-.for-slaider-in-header {
+.for-slaider-in-header{
     position: absolute;
-    top: 755px;
-    left: 952px;
+    top:755px;
+    left:952px;
 }
-
-.wrapper>input {
+.wrapper > input {
     display: none;
 }
-
 .wrapper .controls {
     left: 927px;
     position: absolute;
     top: 737px;
 }
-
 .wrapper label {
     cursor: pointer;
     display: inline-block;
@@ -246,7 +225,6 @@
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-
 .wrapper label:after {
     border: 2px solid #ddd;
     content: " ";
@@ -261,7 +239,6 @@
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-
 .wrapper label {
     cursor: pointer;
     display: inline-block;
@@ -278,12 +255,12 @@
     -o-transition: background ease-in-out .5s;
     transition: background ease-in-out .5s;
 }
-
 .wrapper label:hover,
-#slide1:checked~.controls label:nth-of-type(1),
-#slide2:checked~.controls label:nth-of-type(2),
-#slide3:checked~.controls label:nth-of-type(3),
-#slide4:checked~.controls label:nth-of-type(4),
-#slide5:checked~.controls label:nth-of-type(5) {
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
     background: #16d428;
 }
+
