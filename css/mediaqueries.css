@@ -99,9 +99,18 @@
 	.connecting{
 		flex-direction: column;
 	}
+	.images-group-testimonials{
+	margin-left: 150px; 
+		justify-content: flex-start;
+	}
+	
 }
     
 @media (min-width: 0) and (max-width: 320px) {
+	.images-group-testimonials{
+		margin-left: 150px; 
+			justify-content: flex-start;
+		}
 	.connecting{
 		flex-direction: column;
 	}
@@ -238,24 +247,3 @@
 
 
 
-/*
-@media screen and (max-width: 320px) {
-.content{
-	display: inline-block;
-	width: 580px;
-	height: 100%;
-	margin-bottom: 0px;
-}
-.contacts{
-	display: inline-block;
-	height: 128px;
-	width: 358px;
-	border: 1px solid grey;
-	box-sizing: border-box;
-	display: inline-block; 
-	margin-right: 29px;
-	padding-bottom: 40px;
-	padding-top: 40px;
-	padding-left: 40px;
-}	
-*/

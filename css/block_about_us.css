@@ -31,7 +31,9 @@
     width: 679px;
     height: 70px;
 }
-.button_read_more_block_about_us{
+
+.button_read_more_block_about_us a{
+    padding: 10px;
     cursor: pointer;
     font-size: 13px;
     font-family: Montserrat, Arial, sans-serif;
@@ -43,7 +45,7 @@
     top: 262px;
     background-color: #16d428;
     width: 134px;
-    height: 45px;
+ 
     border: none;
     border-radius: 25px;
 }

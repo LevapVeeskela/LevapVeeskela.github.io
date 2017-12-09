@@ -163,7 +163,8 @@ ul.social-ikon-ft a:hover {
 	color: #343a3b;
 	padding-top: 105px;
 	padding-bottom: 40px;
-	text-align: center;
+    text-align: center;
+    font-weight: 600;
 }
 .content{
 	width: 1125px;
@@ -195,7 +196,6 @@ ul.social-ikon-ft a:hover {
 .item2{
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: "MontserratSubrayada-Bold";
 	font-size: 18px;
 }
 .clear{
@@ -283,14 +283,13 @@ input{
 	margin: 0;
 }
 
-.text1{
+.text-contacts{
 	text-transform: uppercase;
-	font-family: "MontserratSubrayada-Bold";
 	font-weight: bold;
 	font-size: 18px; 
 }
 
-.text2{
+.text-contacts-second{
 	font-family: "Domine Regular";
 	font-size: 18px; 
 }
