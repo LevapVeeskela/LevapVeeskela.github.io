@@ -1,0 +1,257 @@
+.bg-header-main{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.header-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1970px;
+    height: 841px;
+    background: linear-gradient(to bottom, #000000, #aca7a9);
+    opacity: 0.8;
+}
+.logo-header-consult-plus{
+    position: absolute;
+    width: 149px;
+    height: 42px;
+    top:39px;
+    left:417px;
+}
+.main-menu-header{
+    position: absolute;
+    top:45px;
+    left:636px;
+    font-size: 14px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2.143;
+}
+.main-menu-header li{
+    display: inline;
+    margin-right: 33px;
+}
+.main-menu-header a{
+    color: #ffffff;
+}
+.main-menu-header a:hover{
+    color: #ffac55;
+}
+.header-phone-number{
+    position: absolute;
+    display: inline-block;
+    top: 55px;
+    left: 1357px;
+    font-size: 15px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2.4px;
+    letter-spacing: 0.7px;
+}
+.icon-calls-out{
+    position: absolute;
+    top: 45px;
+    left: 1322px;
+}
+.icon-envelope-open{
+    position: absolute;
+    top: 50px;
+    left: 1532px;
+}
+.circle-for-icon-email{
+    position: absolute;
+    top: 45px;
+    left: 1526px;
+    width: 30px;
+    height: 30px;
+    background: #03b6e7;
+    border-radius: 50px;
+    opacity: 0.3;
+}
+.caption-We-are-leading{
+    font-size: 16px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 814px;
+    top: 238px;
+}
+.caption-Choose-your-industry{
+    font-size: 46px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 697px;
+    top: 268px;
+    letter-spacing: -1px;
+}
+.rectangle-for-choose-education{
+    position: absolute;
+    top:371px;
+    left:417px;
+    width: 263px;
+    height: 283px;
+    background: #03b6e7;
+}
+.image-education{
+    position: absolute;
+    top: 84px;
+    left: 103px;
+}
+.text-name-education{
+    position: absolute;
+    font-size: 20px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    left: 72px;
+    top: 159px;
+}
+.rectangle-for-choose-business{
+    position: absolute;
+    top:371px;
+    left:712px;
+    width: 263px;
+    height: 283px;
+    background: #03b6e7;
+}
+.image-Business{
+    position: absolute;
+    top: 84px;
+    left: 103px;
+}
+.text-name-Business{
+    position: absolute;
+    font-size: 20px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    left: 80px;
+    top: 159px;
+}
+.rectangle-for-choose-Technology{
+    position: absolute;
+    top:371px;
+    left:1005px;
+    width: 263px;
+    height: 283px;
+    background: #03b6e7;
+}
+.image-Technology{
+    position: absolute;
+    top: 90px;
+    left: 95px;
+}
+.text-name-Technology{
+    position: absolute;
+    font-size: 20px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    left: 60px;
+    top: 159px;
+}
+.rectangle-for-choose-Banking{
+    position: absolute;
+    top:371px;
+    left:1297px;
+    width: 263px;
+    height: 283px;
+    background: #03b6e7;
+}
+.image-Banking{
+    position: absolute;
+    top: 85px;
+    left: 102px;
+}
+.text-name-Banking{
+    position: absolute;
+    font-size: 20px;
+    font-family: Montserrat, Arial,sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    left: 79px;
+    top: 159px;
+}
+.hover-for-slayder:hover{
+    background: #ffac55;
+}
+.for-slaider-in-header{
+    position: absolute;
+    top:755px;
+    left:952px;
+}
+.wrapper > input {
+    display: none;
+}
+.wrapper .controls {
+    left: 927px;
+    position: absolute;
+    top: 737px;
+}
+.wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 25px 12px 0 16px;
+    position: relative;
+    width: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.wrapper label:after {
+    border: 2px solid #ddd;
+    content: " ";
+    display: block;
+    height: 12px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 25px 12px 0 16px;
+    position: relative;
+    width: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background ease-in-out .5s;
+    -moz-transition: background ease-in-out .5s;
+    -o-transition: background ease-in-out .5s;
+    transition: background ease-in-out .5s;
+}
+.wrapper label:hover,
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+    background: #16d428;
+}
+

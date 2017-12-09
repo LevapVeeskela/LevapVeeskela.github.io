@@ -15,51 +15,45 @@
     opacity: 0.8;
 }
 
-.logo-header-consult-plus {
+.logo-header-consult-plus{
     position: absolute;
     width: 149px;
     height: 42px;
-    top: 39px;
-    left: 417px;
+    top:39px;
+    left:417px;
 }
-
-.main-menu-header {
+.main-menu-header{
     position: absolute;
-    top: 45px;
-    left: 636px;
+    top:45px;
+    left:636px;
     font-size: 14px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 2.143;
 }
-
-.main-menu-header li {
+.main-menu-header li{
     display: inline;
     margin-right: 33px;
 }
-
-.main-menu-header a {
+.main-menu-header a{
     color: #ffffff;
 }
-
-.main-menu-header a:hover {
+.main-menu-header a:hover{
     color: #ffac55;
 }
-
-.header-phone-number {
+.header-phone-number{
     position: absolute;
     display: inline-block;
     top: 55px;
     left: 1357px;
     font-size: 15px;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial,sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 2.4px;
     letter-spacing: 0.7px;
 }
-
 .icon-calls-out{
     position: absolute;
     top: 45px;
